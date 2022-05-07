@@ -9,7 +9,7 @@ use Webmozart\Assert\Assert;
 
 final class InjectionEntryPointContainer implements InjectionContainerWrapper
 {
-    /** @var self */
+    /** @var ?self */
     private static $self;
 
     /** @var ?InjectionContainer */
