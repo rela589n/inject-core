@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Inject\Container;
+namespace Rela589n\Injection\Container;
 
-use Inject\Container\Exception\ContainerNotSetException;
+use Rela589n\Injection\Container\Exception\ContainerNotSetException;
 use Webmozart\Assert\Assert;
 
 final class InjectionEntryPointContainer implements InjectionContainerWrapper

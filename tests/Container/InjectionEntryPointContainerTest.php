@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Tests\Container;
+namespace Rela589n\Injection\Test\Container;
 
-use Inject\Container\Exception\ContainerNotSetException;
-use Inject\Container\InjectionEntryPointContainer;
+use Rela589n\Injection\Container\Exception\ContainerNotSetException;
+use Rela589n\Injection\Container\InjectionEntryPointContainer;
 use PHPUnit\Framework\TestCase;
 use stdClass;
-use Tests\Container\Mock\InjectionContainerMock;
-use Tests\Container\Mock\InjectionContainerWrapperMock;
-use Tests\Util\ContainerTearDownTrait;
+use Rela589n\Injection\Test\Container\Mock\InjectionContainerMock;
+use Rela589n\Injection\Test\Container\Mock\InjectionContainerWrapperMock;
+use Rela589n\Injection\Test\Util\ContainerTearDownTrait;
 use Webmozart\Assert\InvalidArgumentException;
 
 /** @covers InjectionEntryPointContainer */

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Inject\Container;
+namespace Rela589n\Injection\Container;
 
 interface InjectionContainerWrapper extends InjectionContainer
 {

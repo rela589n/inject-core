@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Container\Mock;
+namespace Rela589n\Injection\Test\Container\Mock;
 
-use Inject\Container\InjectionContainer;
+use Rela589n\Injection\Container\InjectionContainer;
 
 final class InjectionContainerMock implements InjectionContainer
 {

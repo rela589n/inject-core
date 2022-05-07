@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\UtilTest\Example;
+namespace Rela589n\Injection\Test\UtilTest\Example;
 
 use DateTime;
 use DateTimeInterface;

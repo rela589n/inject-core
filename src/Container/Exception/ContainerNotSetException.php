@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Inject\Container\Exception;
+namespace Rela589n\Injection\Container\Exception;
 
 use RuntimeException;
 
