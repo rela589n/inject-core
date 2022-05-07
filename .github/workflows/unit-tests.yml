@@ -1,0 +1,50 @@
+name: PHPUnit
+
+on:
+  push:
+  pull_request:
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+
+  tests:
+    name: Tests
+
+    env:
+      extensions: mbstring
+
+    strategy:
+      matrix:
+        include:
+          - php: '7.2'
+          - php: '7.4'
+          - php: '8.0'
+          - php: '8.1'
+      fail-fast: false
+
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          coverage: "none"
+          ini-values: date.timezone=Europe/Kiev,memory_limit=-1
+          php-version: "${{ matrix.php }}"
+          extensions: "${{ env.extensions }}"
+          tools: flex
+
+      - name: Run Tests
+        uses: ./.github/actions/test
