@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\UtilTest;
+namespace Rela589n\RuntimeInjection\Test\UtilTest;
 
 use PHPUnit\Framework\TestCase;
-use Rela589n\Injection\Test\Util\ContainerTearDownTrait;
-use Rela589n\Injection\Test\Util\TestContainerSetUpTrait;
-use Rela589n\Injection\Test\UtilTest\Example\GeneratedTokenExample;
-use Rela589n\Injection\Test\UtilTest\Mock\TokenStorageExampleMock;
+use Rela589n\RuntimeInjection\Test\Util\ContainerTearDownTrait;
+use Rela589n\RuntimeInjection\Test\Util\TestContainerSetUpTrait;
+use Rela589n\RuntimeInjection\Test\UtilTest\Example\GeneratedTokenExample;
+use Rela589n\RuntimeInjection\Test\UtilTest\Mock\TokenStorageExampleMock;
 
 use function sleep;
 

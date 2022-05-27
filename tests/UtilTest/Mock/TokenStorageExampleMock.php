@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\UtilTest\Mock;
+namespace Rela589n\RuntimeInjection\Test\UtilTest\Mock;
 
 use DateInterval;
 use DateTimeImmutable;
-use Rela589n\Injection\Test\UtilTest\Example\Storage\TokenStorageExample;
-use Rela589n\Injection\Test\UtilTest\Example\TokenExample;
+use Rela589n\RuntimeInjection\Test\UtilTest\Example\Storage\TokenStorageExample;
+use Rela589n\RuntimeInjection\Test\UtilTest\Example\TokenExample;
 
 final class TokenStorageExampleMock implements TokenStorageExample
 {

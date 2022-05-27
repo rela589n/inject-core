@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\Util;
+namespace Rela589n\RuntimeInjection\Test\Util;
 
 use Closure;
-use Rela589n\Injection\Container\InjectionContainer;
-use Rela589n\Injection\Container\InjectionContainerWrapper;
+use Rela589n\RuntimeInjection\Container\InjectionContainer;
+use Rela589n\RuntimeInjection\Container\InjectionContainerWrapper;
 use RuntimeException;
 
 use function get_class;

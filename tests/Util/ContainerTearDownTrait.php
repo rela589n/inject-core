@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\Util;
+namespace Rela589n\RuntimeInjection\Test\Util;
 
-use Rela589n\Injection\Container\InjectionEntryPointContainer;
+use Rela589n\RuntimeInjection\Container\InjectionEntryPointContainer;
 use PHPUnit\Framework\TestCase;
 use ReflectionProperty;
 

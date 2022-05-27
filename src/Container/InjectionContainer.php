@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Container;
+namespace Rela589n\RuntimeInjection\Container;
 
 interface InjectionContainer
 {

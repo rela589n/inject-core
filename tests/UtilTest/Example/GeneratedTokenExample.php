@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\UtilTest\Example;
+namespace Rela589n\RuntimeInjection\Test\UtilTest\Example;
 
 use DateTimeInterface;
-use Rela589n\Injection\Test\UtilTest\Example\Storage\TokenStorageExample;
+use Rela589n\RuntimeInjection\Test\UtilTest\Example\Storage\TokenStorageExample;
 
 use function inject;
 

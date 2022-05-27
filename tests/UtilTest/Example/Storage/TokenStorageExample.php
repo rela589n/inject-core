@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Rela589n\Injection\Test\UtilTest\Example\Storage;
+namespace Rela589n\RuntimeInjection\Test\UtilTest\Example\Storage;
 
-use Rela589n\Injection\Test\UtilTest\Example\TokenExample;
+use Rela589n\RuntimeInjection\Test\UtilTest\Example\TokenExample;
 
 interface TokenStorageExample
 {

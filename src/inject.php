@@ -1,6 +1,6 @@
 <?php
 
-use Rela589n\Injection\Container\InjectionEntryPointContainer;
+use Rela589n\RuntimeInjection\Container\InjectionEntryPointContainer;
 
 if (!function_exists('inject')) {
     function inject(object $injectable): void

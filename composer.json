@@ -1,11 +1,11 @@
 {
-    "name": "rela589n/inject-core",
-    "description": "Framework agnostic dependency injection wrapper, which allows to register any framework-specific container adapter.",
+    "name": "rela589n/runtime-injection",
+    "description": "Framework agnostic runtime dependency injection wrapper, allowing to register any framework-specific container adapter.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rela589n\\Injection\\": "src/"
+            "Rela589n\\RuntimeInjection\\": "src/"
         },
         "files": [
             "src/inject.php"
@@ -13,7 +13,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rela589n\\Injection\\Test\\": "tests/"
+            "Rela589n\\RuntimeInjection\\Test\\": "tests/"
         }
     },
     "authors": [
